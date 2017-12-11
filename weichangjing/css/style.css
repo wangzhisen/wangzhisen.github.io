@@ -45,7 +45,7 @@ body {
 
 /* .s1*/
 
-.s1 {
+.s1,.s2 {
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -58,29 +58,34 @@ body {
     width: 35px;
     top: 120px;
     left: 50px;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(2){
     width: 65px;
     top: 90px;
     right: 40px;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(3){
     width: 55px;
     left: 35px;
     bottom: 180px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     right: 50px;
     bottom: 210px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(5){
     left: 50%;
     top: 25%;
     width: 60%;
     margin-left: -30%;
+    animation: pulse infinite;
 }
 
 
@@ -133,3 +138,40 @@ body {
 .s1 .footer img:nth-last-of-type(2){
     left:0px;
 }
+
+
+/*----s2部分------*/
+
+.s2{
+    padding-top: 60px;
+}
+.s2 .header{
+    padding-bottom: 20px;
+}
+.s2 .header h1{
+    font-size: 25px;
+    color: #01f7d0;
+    width:198px;
+    margin:auto;
+}
+.s2 .header h1 small{
+    font-size: 14px;
+    letter-spacing:6px;
+}
+.s2 .main .bag img{
+    width:80%;
+}
+.s2 .main .jieshao{
+    width:68%;
+    position: absolute;
+    top:172px;
+    left:62px;
+}
+.s2 .main .jieshao p{
+     color: #01f7d0;
+    font-size: 4px;
+    float: left;
+    letter-spacing:2px;
+    text-align: left;
+    line-height: 150%px;
+ }
