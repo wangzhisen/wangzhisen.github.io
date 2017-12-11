@@ -148,13 +148,27 @@ body {
 .s2 .header{
     padding-bottom: 20px;
 }
-.s2 .header h1{
+.s2 .header .img-14{
+    width:85px;
+    height: 20px;
+    position: absolute;
+    left:55px;
+    top:67px;
+}
+.s2 .header .img-13{
+    width:85px;
+    height: 20px;
+    position: absolute;
+    right:55px;
+    top:67px;
+}
+.s2 .header h2{
     font-size: 25px;
     color: #01f7d0;
     width:198px;
     margin:auto;
 }
-.s2 .header h1 small{
+.s2 .header h2 small{
     font-size: 14px;
     letter-spacing:6px;
 }
@@ -173,5 +187,15 @@ body {
     float: left;
     letter-spacing:2px;
     text-align: left;
-    line-height: 150%px;
+    line-height: 25px;
  }
+.s2 .main .btn{
+    background-color: #01fba2;
+    width: 120px;
+    height:27px;
+    font-weight: 600;
+    border-radius: 15px;
+    position: absolute;
+    top:75%;
+    left:35%;
+}
