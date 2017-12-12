@@ -42,10 +42,35 @@ body {
     transform: rotateZ(-90deg);
 }
 
+/* 音乐部分 */
+#music{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+    background-color: #0000006b;
+    z-index: 99;    
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    animation:myfirst 2.5s infinite linear;
+}
+@keyframes myfirst{
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#music img{
+    width: 40%;
+}
 
 /* .s1*/
 
-.s1,.s2 {
+.s1,.s2,.s3{
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -147,25 +172,49 @@ body {
 .s2 .header{
     padding-bottom: 20px;
 }
-.s2 .header .img-14{
+.biaoti .img-14{
     width: 25%;
     position: absolute;
     left:10%;
     top:10%;
+    animation:yidongLeft 1.5s infinite linear;
 }
-.s2 .header .img-13{
+@keyframes yidongLeft{
+    0% {
+        left: 35px;
+    }
+    50% {
+        left: 30px;
+    }
+    100%{
+        left: 35px;
+    }
+}
+.biaoti .img-13{
     width:25%;
     position: absolute;
     right:10%;
     top:10%;
+    animation:yidongRight 1.5s infinite linear;
 }
-.s2 .header h2{
+@keyframes yidongRight{
+    0% {
+        right: : 35px;
+    }
+    50% {
+        right: 30px;
+    }
+    100%{
+        right: 35px;
+    }
+}
+.biaoti h2{
     font-size: 25px;
     color: #01f7d0;
     display: block;
     margin:auto;
 }
-.s2 .header h2 small{
+.biaoti h2 small{
     font-size: 14px;
     letter-spacing:6px;
     display: block;
@@ -198,3 +247,61 @@ body {
     top:75%;
     left:35%;
 }
+
+
+/* ---s2---- */
+.s3{
+    padding-top: 60px;
+}
+.s3 .header{
+    padding-bottom: 20px;
+}
+.biaoti .img-14{
+    width: 25%;
+    position: absolute;
+    left:10%;
+    top:10%;
+    animation:yidongLeft 1.5s infinite linear;
+}
+@keyframes yidongLeft{
+    0% {
+        left: 35px;
+    }
+    50% {
+        left: 30px;
+    }
+    100%{
+        left: 35px;
+    }
+}
+.biaoti .img-13{
+    width:25%;
+    position: absolute;
+    right:10%;
+    top:10%;
+    animation:yidongRight 1.5s infinite linear;
+}
+@keyframes yidongRight{
+    0% {
+        right: : 35px;
+    }
+    50% {
+        right: 30px;
+    }
+    100%{
+        right: 35px;
+    }
+}
+.biaoti  h2{
+    font-size: 25px;
+    color: #01f7d0;
+    display: block;
+    margin:auto;
+}
+.biaoti h2 small{
+    font-size: 14px;
+    letter-spacing:6px;
+    display: block;
+    margin-top: 10px;
+}
+

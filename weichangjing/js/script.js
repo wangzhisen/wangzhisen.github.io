@@ -26,4 +26,30 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 
+var mp3=document.querySelector("#mp3");
+var music=document.querySelector("#music");
+
+music.addEventListener("click",function(){
+    if(mp3.paused){
+        mp3.play();
+    }else {
+        mp3.pause();
+    }
+})
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
