@@ -249,59 +249,11 @@ body {
 }
 
 
-/* ---s2---- */
+/* ---s3---- */
 .s3{
     padding-top: 60px;
 }
 .s3 .header{
     padding-bottom: 20px;
-}
-.biaoti .img-14{
-    width: 25%;
-    position: absolute;
-    left:10%;
-    top:10%;
-    animation:yidongLeft 1.5s infinite linear;
-}
-@keyframes yidongLeft{
-    0% {
-        left: 35px;
-    }
-    50% {
-        left: 30px;
-    }
-    100%{
-        left: 35px;
-    }
-}
-.biaoti .img-13{
-    width:25%;
-    position: absolute;
-    right:10%;
-    top:10%;
-    animation:yidongRight 1.5s infinite linear;
-}
-@keyframes yidongRight{
-    0% {
-        right: : 35px;
-    }
-    50% {
-        right: 30px;
-    }
-    100%{
-        right: 35px;
-    }
-}
-.biaoti  h2{
-    font-size: 25px;
-    color: #01f7d0;
-    display: block;
-    margin:auto;
-}
-.biaoti h2 small{
-    font-size: 14px;
-    letter-spacing:6px;
-    display: block;
-    margin-top: 10px;
 }
 
