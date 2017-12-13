@@ -256,4 +256,76 @@ body {
 .s3 .header{
     padding-bottom: 20px;
 }
-
+.s3 .main div{
+    width: 62px;
+    height: 62px;
+    position: relative;   
+}
+.s3 .main div img{
+    width: 100%;
+}
+.s3 .main div span{
+    color: #2df8b6;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    
+}
+.s3 .main .zhong{
+    width: 135px;
+    height: 135px;
+}
+.s3 .main .zhong span{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 25px;
+}
+.s3 .main div:nth-last-of-type(1){
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.s3 .main div:nth-last-of-type(2){
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+.s3 .main div:nth-last-of-type(3){
+    position: absolute;
+    top: 44%;
+    left: 5%;
+}
+.s3 .main div:nth-last-of-type(4){
+    position: absolute;
+    top: 38.5%;
+    left: 32%;
+}
+.s3 .main div:nth-last-of-type(5){
+    position: absolute;
+    top: 44%;
+    right: 5%;
+}
+.s3 .main div:nth-last-of-type(6){
+    position: absolute;
+    top: 61.5%;
+    left: 25%;
+}
+.s3 .main div:nth-last-of-type(7){
+    position: absolute;
+    top: 61.5%;
+    right: 25%;
+}
+.s3 .footer{
+    width: 259px;
+    border-left: 3px #2df8b6 solid;
+    position: absolute;
+    bottom: 19%;
+    left: 16%;
+}
+.s3 .footer p{
+    color: #2df8b6;
+    font-size: 14px;
+}
