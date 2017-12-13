@@ -122,7 +122,7 @@ body {
 
 /* .s1*/
 
-.s1,.s2,.s3,.s4{
+.s1,.s2,.s3,.s4,.s5,.s6{
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -537,4 +537,135 @@ body {
 }
 .s4 .main .wenzi .footer p{
     width: 82%;
+}
+
+/* s5 */
+.s5{
+    padding-top: 60px;
+}
+.s5 .header{
+    padding-bottom: 20px;
+}
+.s5 .main .bag-1 img{
+    width: 38%;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+}
+.s5 .main .xingzheng img{
+    width: 38%;
+    position: absolute;
+    left: 10%;
+    top: 23%;
+}
+.s5 .main .xingzheng span{
+    color: #2df8b6;
+    font-size: 16px;
+    position: absolute;
+    left: 15%;
+    top: 41%;
+}
+.s5 .main .xingzheng p{
+    width: 100px;
+    height: 25px;
+    background: url('../img/29.png');
+    background-size: 100px 25px;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+}
+
+
+
+.s5 .main .bag-2 img{
+    width: 38%;
+    position: absolute;
+    top: 23%;
+    right: 10%;
+}
+.s5 .main .yunying img{
+    width: 38%;
+    position: absolute;
+    right: 10%;
+    top: 23%;
+}
+.s5 .main .yunying span{
+    color: #2df8b6;
+    font-size: 16px;
+    position: absolute;
+    right: 15%;
+    top: 41%;
+}
+.s5 .main .yunying p{
+    width: 100px;
+    height: 25px;
+    background: url('../img/29.png');
+    background-size: 100px 25px;
+    position: absolute;
+    right: 15%;
+    top: 45%;
+}
+
+
+
+.s5 .main .bag-3 img{
+    width: 38%;
+    position: absolute;
+    top: 57%;
+    left: 10%;
+}
+.s5 .main .xiaoshou img{
+    width: 38%;
+    position: absolute;
+    left: 10%;
+    top: 57%;
+}
+.s5 .main .xiaoshou span{
+    color: #2df8b6;
+    font-size: 16px;
+    position: absolute;
+    left: 15%;
+    top: 75%;
+}
+.s5 .main .xiaoshou p{
+    width: 100px;
+    height: 25px;
+    background: url('../img/29.png');
+    background-size: 100px 25px;
+    position: absolute;
+    left: 15%;
+    top: 79%;
+}
+
+
+
+
+.s5 .main .bag-4 img{
+    width: 38%;
+    position: absolute;
+    top: 57%;
+    right: 10%;
+}
+
+.s5 .main .chanpin img{
+    width: 38%;
+    position: absolute;
+    right: 10%;
+    top: 57%;
+}
+.s5 .main .chanpin span{
+    color: #2df8b6;
+    font-size: 16px;
+    position: absolute;
+    right: 15%;
+    top: 75%;
+}
+.s5 .main .chanpin p{
+    width: 100px;
+    height: 25px;
+    background: url('../img/29.png');
+    background-size: 100px 25px;
+    position: absolute;
+    right: 15%;
+    top: 79%;
 }
