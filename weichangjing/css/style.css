@@ -40,24 +40,7 @@ body {
     right: auto;
     margin-left: -13.5px;
     transform: rotateZ(-90deg);
-    width: 17px;
-    height: 34px;
-    background-size: 17px 34px;
-    animation:buttonNext 1s infinite linear alternate;
 }
-
-@keyframes buttonNext{
-    0% {
-        bottom: 3%;
-        opacity: 1;
-    }
-    100%{
-        bottom: 5%;
-        opacity: 0;
-    }
-}
-
-
 
 /* 音乐部分 */
 #music{
@@ -84,45 +67,10 @@ body {
 #music img{
     width: 40%;
 }
-/* footer */
-
-
-.footer-we img{
-    position: absolute;
-    height: 70px;
-    bottom:0;
-    left: 0;
-    z-index: 99;
-}
-.footer-we img:nth-last-of-type(1){
-    left:-60px;
-    animation:footer-we1 1.5s infinite linear alternate;
-}
-.footer-we img:nth-last-of-type(2){
-    left:0px;
-    animation:footer-we2 1.5s infinite linear alternate;
-}
-
-@keyframes footer-we1{
-    from {
-        left: -40px;
-    }
-    to {
-        left: -70px;
-    }
-}
-@keyframes footer-we2{
-    from {
-        left: -30px;
-    }
-    to {
-        left: 0px;
-    }
-}
 
 /* .s1*/
 
-.s1,.s2,.s3,.s4{
+.s1,.s2,.s3{
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -202,6 +150,18 @@ body {
     margin-bottom: 100px;
     font-size: 10px;
 }
+.s1 .footer img{
+    position: absolute;
+    height: 70px;
+    bottom:0;
+    left: 0;
+}
+.s1 .footer img:nth-last-of-type(1){
+    left:-60px;
+}
+.s1 .footer img:nth-last-of-type(2){
+    left:0px;
+}
 
 
 /*----s2部分------*/
@@ -239,7 +199,7 @@ body {
 }
 @keyframes yidongRight{
     0% {
-        right: 35px;
+        right: : 35px;
     }
     50% {
         right: 30px;
@@ -368,169 +328,4 @@ body {
 .s3 .footer p{
     color: #2df8b6;
     font-size: 14px;
-}
-
-
-/* ---s4---- */
-.s4{
-    padding-top: 60px;
-}
-.s4 .header{
-    padding-bottom: 20px;
-}
-.s4 .main .bag img{
-    width: 85%;
-}
-.s4 .main .wenzi .ego{
-    position: absolute;
-    top: 23%;
-    left: 21%;
-}
-.s4 .main .wenzi .ego span img{
-    width: 27px;
-    height: 27px;
-    float: left;
-}
-.s4 .main .wenzi .ego h4:nth-last-of-type(1){
-    color: #00c7ff;
-    float: left;    
-}
-.s4 .main .wenzi .ego h4:nth-last-of-type(2){
-    color: #2df8b6;
-    float: left;
-    padding-right: 40px;
-}
-
-
-.s4 .main .wenzi .xiaoshou{
-    position: absolute;
-    top: 30%;
-    left: 12%;
-}
-.s4 .main .wenzi .xiaoshou h3{
-    color: #2df8b6;
-    float: left;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-.s4 .main .wenzi .xiaoshou h3 span{
-    color: #ffffff;
-}
-.s4 .main .wenzi .xiaoshou p{
-    clear: both;
-}
-.s4 .main .wenzi .xiaoshou p img{
-    float: left;
-}
-.s4 .main .wenzi .xiaoshou p span{
-    float: left;
-}
-.s4 .main .wenzi .xiaoshou .lu img{
-    width: 80%;
-    height: 16px;
-}
-.s4 .main .wenzi .xiaoshou .lu span{
-    color: #2df8b6;
-    font-size: 14px;
-}
-.s4 .main .wenzi .xiaoshou .lan img{
-    width: 40%;
-    height: 16px;
-}
-.s4 .main .wenzi .xiaoshou .lan span{
-    color: #00c7ff;
-    font-size: 14px;
-}
-
-
-.s4 .main .wenzi .yingli{
-    position: absolute;
-    top: 43%;
-    left: 12%;
-}
-.s4 .main .wenzi .yingli h3{
-    color: #2df8b6;
-    float: left;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-.s4 .main .wenzi .yingli h3 span{
-    color: #ffffff;
-}
-.s4 .main .wenzi .yingli p{
-    clear: both;
-}
-.s4 .main .wenzi .yingli p img{
-    float: left;
-}
-.s4 .main .wenzi .yingli p span{
-    float: left;
-}
-.s4 .main .wenzi .yingli .lu img{
-    width: 70%;
-    height: 16px;
-}
-.s4 .main .wenzi .yingli .lu span{
-    color: #2df8b6;
-    font-size: 14px;
-}
-.s4 .main .wenzi .yingli .lan img{
-    width: 35%;
-    height: 16px;
-}
-.s4 .main .wenzi .yingli .lan span{
-    color: #00c7ff;
-    font-size: 14px;
-}
-
-
-
-.s4 .main .wenzi .yonghu{
-    position: absolute;
-    top: 56%;
-    left: 12%;
-}
-.s4 .main .wenzi .yonghu h3{
-    color: #2df8b6;
-    float: left;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-.s4 .main .wenzi .yonghu h3 span{
-    color: #ffffff;
-}
-.s4 .main .wenzi .yonghu p{
-    clear: both;
-}
-.s4 .main .wenzi .yonghu p img{
-    float: left;
-}
-.s4 .main .wenzi .yonghu p span{
-    float: left;
-}
-.s4 .main .wenzi .yonghu .lu img{
-    width: 60%;
-    height: 16px;
-}
-.s4 .main .wenzi .yonghu .lu span{
-    color: #2df8b6;
-    font-size: 14px;
-}
-.s4 .main .wenzi .yonghu .lan img{
-    width: 30%;
-    height: 16px;
-}
-.s4 .main .wenzi .yonghu .lan span{
-    color: #00c7ff;
-    font-size: 14px;
-}
-
-
-.s4 .main .wenzi .footer{
-    position: absolute;
-    top: 72%;
-    left: 0;
-    color: #2df8b6;
-    font-size:14px; 
-    width: 100%;
 }
