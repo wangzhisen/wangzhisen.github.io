@@ -120,7 +120,7 @@ body {
     }
 }
 
-/* .s1*/
+/* --------------------------------.s1-----------------------*/
 
 .s1,.s2,.s3,.s4,.s5,.s6{
     background: url("../img/bj.png");
@@ -204,7 +204,7 @@ body {
 }
 
 
-/*----s2部分------*/
+/*---------------------s2部分------------------------*/
 
 .s2{
     padding-top: 60px;
@@ -289,7 +289,7 @@ body {
 }
 
 
-/* ---s3---- */
+/* -----------------------s3------------------------------- */
 .s3{
     padding-top: 60px;
 }
@@ -371,7 +371,7 @@ body {
 }
 
 
-/* ---s4---- */
+/* -----------------------s4----------------------- */
 .s4{
     padding-top: 60px;
 }
@@ -539,7 +539,7 @@ body {
     width: 82%;
 }
 
-/* s5 */
+/* --------------s5------------------- */
 .s5{
     padding-top: 60px;
 }
@@ -684,4 +684,110 @@ body {
     position: absolute;
     right: 15%;
     top: 79%;
+}
+
+
+
+/* --------------s6------------ */
+
+.s6{
+    padding-top: 60px;
+}
+.s6 .header{
+    padding-bottom: 20px;   
+}
+.s6 .main .main-left{
+    width: 7%;
+    height: 100%;
+    position: relative;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.s6 .main .main-left,.s6 .main .main-right{
+    float: left;
+}
+.s6 .main .main-left .dian1{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.s6 .main .main-left .dian2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 24%;
+    left: 0px;
+}
+.s6 .main .main-left .dian3{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 48%;
+    left: 0px;
+}
+.s6 .main .main-left .xian{
+    width: 3px;
+    height: 435px;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+}
+
+
+.s6 .main .main-right{
+    height: 100%;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    position: relative;
+}
+.s6 .main .main-right h3{
+    width: 280px;
+    height: 30px;
+    margin-bottom: 10px;
+    background: url('../img/32.png');
+    background-size: 280px 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+.s6 .main .main-right h3:nth-last-of-type(1){
+    
+}
+.s6 .main .main-right div{
+    margin-bottom: 27px;
+}
+.s6 .main .main-right div .bag{
+    width: 298px;
+    height: 83px;
+}
+.s6 .main .main-right div .bag img{
+    width: 280px;
+    height: 83px;
+    margin-left: -15px;
+}
+.s6 .main .main-right div .wenzi1{
+    position: absolute;
+    top: 8%;
+}
+.s6 .main .main-right div .wenzi2{
+    position: absolute;
+    top: 33%;
+}
+.s6 .main .main-right div .wenzi3{
+    position: absolute;
+    top: 57%;
+}
+.s6 .main .main-right div div p{
+    color: #2df8b6;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+}
+.s6 .main .main-right .main1{
+
 }
