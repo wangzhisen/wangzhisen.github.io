@@ -122,7 +122,7 @@ body {
 
 /* --------------------------------.s1-----------------------*/
 
-.s1,.s2,.s3,.s4,.s5,.s6{
+.s1,.s2,.s3,.s4,.s5,.s6,.s7{
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -788,6 +788,58 @@ body {
     text-align: left;
     padding-left: 10px;
 }
-.s6 .main .main-right .main1{
 
+
+
+/* ------------s7-------------- */
+
+.s7{
+    padding-top: 60px;
+}
+.s7 .header{
+    padding-bottom: 20px;   
+}
+.s7 .main .bag{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+.s7 .main .bag img{
+    width: 100%;
+}
+.s7 .main .biaodan input{
+    width: 265px;
+    height: 57px;
+    padding-left: 10px;
+}
+.s7 .main .biaodan .input1{
+    position: absolute;
+    top: 27%;
+    left: 15%
+}
+.s7 .main .biaodan .input2{
+    position: absolute;
+    top: 37%;
+    left: 15%
+}
+.s7 .main .biaodan .input3{
+    position: absolute;
+    top: 47%;
+    left: 15%
+}
+.s7 .main .biaodan button{
+    width: 265px;
+    height: 57px;
+    position: absolute;
+    top: 59%;
+    left: 15%;
+    background-color: #00f2ca;
+    color: #ffffff;
+}
+.s7 .main .biaodan .footer{
+    color: #00f2ca;
+    font-size: 14px;
+    position: absolute;
+    top: 70%;
+    left: 25%;
 }
