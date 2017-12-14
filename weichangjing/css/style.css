@@ -546,24 +546,28 @@ body {
 .s5 .header{
     padding-bottom: 20px;
 }
-.s5 .main .bag-1 img{
+.s5 .main .bag-1{
     width: 38%;
+    height: 27%;
     position: absolute;
-    top: 23%;
+    top: 21%;
     left: 10%;
+}
+.s5 .main .bag-1 img{
+    width: 100%;
 }
 .s5 .main .xingzheng img{
     width: 38%;
     position: absolute;
     left: 10%;
-    top: 23%;
+    top: 21%;
 }
 .s5 .main .xingzheng span{
     color: #2df8b6;
     font-size: 16px;
     position: absolute;
     left: 15%;
-    top: 41%;
+    top: 39%;
 }
 .s5 .main .xingzheng p{
     width: 100px;
@@ -572,29 +576,32 @@ body {
     background-size: 100px 25px;
     position: absolute;
     left: 15%;
-    top: 45%;
+    top: 43%;
 }
 
 
-
-.s5 .main .bag-2 img{
+.s5 .main .bag-2{
     width: 38%;
+    height: 27%;
     position: absolute;
-    top: 23%;
+    top: 21%;
     right: 10%;
+}
+.s5 .main .bag-2 img{
+    width: 100%;
 }
 .s5 .main .yunying img{
     width: 38%;
     position: absolute;
     right: 10%;
-    top: 23%;
+    top: 21%;
 }
 .s5 .main .yunying span{
     color: #2df8b6;
     font-size: 16px;
     position: absolute;
     right: 15%;
-    top: 41%;
+    top: 39%;
 }
 .s5 .main .yunying p{
     width: 100px;
@@ -603,16 +610,20 @@ body {
     background-size: 100px 25px;
     position: absolute;
     right: 15%;
-    top: 45%;
+    top: 43%;
 }
 
 
 
-.s5 .main .bag-3 img{
+.s5 .main .bag-3{
     width: 38%;
+    height: 27%;
     position: absolute;
     top: 57%;
     left: 10%;
+}
+.s5 .main .bag-3 img{
+    width: 100%;
 }
 .s5 .main .xiaoshou img{
     width: 38%;
@@ -639,12 +650,17 @@ body {
 
 
 
-
-.s5 .main .bag-4 img{
+.s5 .main .bag-4{
     width: 38%;
+    height: 27%;
     position: absolute;
     top: 57%;
     right: 10%;
+}
+
+.s5 .main .bag-4 img{
+    width: 100%;
+
 }
 
 .s5 .main .chanpin img{
