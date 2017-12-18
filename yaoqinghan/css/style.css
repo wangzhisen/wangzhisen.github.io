@@ -50,6 +50,15 @@ body {
     position: absolute;
     top: 5.5%;
     left: 5%;
+    animation:huangTiao 0.6s infinite linear alternate;
+}
+@keyframes huangTiao{
+    from {
+        left: 0px;
+    }
+    to {
+        left: 10px;
+    }
 }
 .s1 .header .img15{
     width: 5%;
