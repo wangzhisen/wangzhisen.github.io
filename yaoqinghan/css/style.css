@@ -143,12 +143,12 @@ body {
     width: 100%;
     position: absolute;
     top: 54%;
-}  
+}
 .s1 .yaoqing .img2{
     width: 70%;
     position: absolute;
     top: 57%;
-    left: 16%;
+    left:16%;
 }   
 .s1 .yaoqing .img15-2{
     width: 7%;
@@ -192,10 +192,11 @@ body {
 }
 
 .s1 .footer .img14-3{
-    width: 100%;
+    width: 120%;
     position: absolute;
     bottom: 2%;
     left: 0%;
+    animation:huangTiao 0.6s infinite linear alternate;
 }
 .s1 .footer .img12{
     width: 100%;
