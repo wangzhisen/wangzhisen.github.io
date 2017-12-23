@@ -1,43 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]>         <html class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css">
-</head>
-<body>
 
-<div class="container">
-	 <h1>在线预览</h1>
+        <!-- Basics -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>.:: John Deo ::.</title>
+        <link name="author" href="humans.txt" />
+        <meta name="description" content="John Deo, UI / UX / Frontend">
 
-	 <div class="row">
-  	 <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
-        <img src="img/a.PNG" alt="..." style="width: 350px;height: 363px;">
-        <div class="caption">
-          <h3>年会邀请函-微场景</h3>
-          <p><a href="weichangjing/index.html" class="btn btn-primary" role="button">浏览</a></p>
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="img/favicons/favicon.ico">
+
+        <!-- Mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Fonts -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700'>
+
+    </head>
+    <body>   
+
+        <div class="wrapper">
+
+            <header>
+                <a class="menu-icon jiji">
+                    <span></span>
+                </a>
+                <nav class="menu visuallyhidden">
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#about">关于我</a></li>
+                        <li><a href="#work">我的项目</a></li>
+                        <li><a href="#contact">联系我</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="home" class="row">
+                <div class="overlay">
+                    <div class="col home-title jiji">
+                        <h1>王志森</h1>
+                        <h2>前端</h2>
+                        <a href="#" target="_blank" class="but">简历下载</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="row">
+                <div class="page about-content">
+                    <div class="col about-title">
+                        <h3
+                            data-100="-webkit-transform: translateX(100px); opacity:0;"
+                            data-500="-webkit-transform: translateX(0px); opacity:1;"
+                        >关于我</h3>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col about-description">
+                        <p
+                            data-100="opacity:0;"
+                            data-500="opacity:1;"
+                        >Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                        <a href="#" class="but">取得联系</a>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                </div>
+            </section>
+
+            <section id="services" class="row">
+                <div class="services-content page">
+                    <div class="col services-design"
+                        data-600="-webkit-transform: translateY(10px); opacity:0;"
+                        data-800="-webkit-transform: translateY(0px); opacity:1;"
+                    >
+                        <span class="icon-design"></span>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col services-frontend"
+                        data-600="-webkit-transform: translateY(50px); opacity:0;"
+                        data-800="-webkit-transform: translateY(0px); opacity:1;"
+                    >
+                        <span class="icon-computer"></span>
+                        <ul>
+                            <li>前端开发</li>
+                            <li>HTML5、CSS3</li>
+                            <li>jQuery & JavaScript</li>
+                            <li>Vue.js、Bootstap</li>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="col services-team"
+                        data-600="-webkit-transform: translateY(100px); opacity:0;"
+                        data-800="-webkit-transform: translateY(0px); opacity:1;"
+                    >
+                        <span class="icon-music"></span>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <hr><div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+
+            <section id="work" class="row">
+                <div class="work-content page">
+                    <div class="col work-title">
+                        <h3
+                            data-900="-webkit-transform: translateX(-100px); opacity:0;"
+                            data-1300="-webkit-transform: translateX(0px); opacity:1;"
+                        >我的项目</h3>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col work-description">
+                        <p
+                            data-900="opacity:0;"
+                            data-1300="opacity:1;"
+                        >我最近的项目：微场景，电商手机客户端，门户网站</p>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                </div>
+                <div class="work-examples page">
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1400="opacity:1;"
+                    >
+                        <img src="img/a.PNG" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>邀请函</h4>
+                                <a href="weichangjing/index.html" class="but">点击查看</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1400="opacity:1;"
+                    >
+                        <img src="img/b.PNG" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>金属风格邀请函</h4>
+                                <a href="yaoqinghan/index.html" class="but">点击查看</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1600="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>Design</h4>
+                                <a href="#" class="but">点击查看</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1400="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                               <h4>Design</h4>
+                               <a href="#" class="but">点击查看</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1500="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>Design</h4>
+                                <a href="#" class="but">点击查看</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1600="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>Design</h4>
+                                <a href="#" class="but">点击查看</a>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="contact" class="row">
+                <div class="contact-content page">
+                    <div class="col contact-title">
+                        <h3
+                            data-100="-webkit-transform: translateX(100px); opacity:0;"
+                            data-500="-webkit-transform: translateX(0px); opacity:1;"
+                        >联系我</h3>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col contact-description">
+                        <a href="#" class="but">wang_zhisen@163.com</a>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col span_12 social">
+                        <a class="icon-twitter" href="#" target="_blank"></a>
+                        <a class="icon-github" href="#" target="_blank"></a>
+                        <a class="icon-instagram" href="#" target="_blank"></a>
+                        <a class="icon-linkedin" href="#" target="_blank"></a>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="footer" class="row">
+                <div class="footer-content page">
+                    <div class="col f1">
+                        <p>© 2017 John Deo. Made with love.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">王志森</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">个人简历</a></p>
+                    </div>
+                </div>
+            </footer>
+
         </div>
-      </div>
-    </div> 
 
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
-        <img src="img/b.PNG" alt="..." style="width: 350px;height: 363px;">
-        <div class="caption">
-          <h3>金属风格邀请函-微场景</h3>
-          <p><a href="yaoqinghan/index.html" class="btn btn-primary" role="button">浏览</a></p>
-        </div>
-      </div>
-    </div>
+        <div class="loader"></div>
+        
+        <!-- JavaScript -->
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/main.js"></script>
 
-  </div>
-    
-</div>
+    </body>
 
-
-<script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.js"></script>
-<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
-</body>
 </html>
